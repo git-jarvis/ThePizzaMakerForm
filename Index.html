@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop_O_Pizza</title>
+    <link rel="icon" type="image/x-icon" href="/images/fav_pizza.jpg">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1>Pizza Order Form</h1>
+    <form id="pizzaForm">
+        <label for="size">Size:</label>
+        <select id="size" name="size">
+            <option value="small">Small</option>
+            <option value="medium">Medium</option>
+            <option value="large">Large</option>
+        </select><br>
+
+        <label for="toppings">Toppings:</label><br>
+        <input type="checkbox" id="pepperoni" name="toppings" value="Pepperoni">
+        <label for="pepperoni">Pepperoni</label><br>
+        <input type="checkbox" id="mushrooms" name="toppings" value="Mushrooms">
+        <label for="mushrooms">Mushrooms</label><br>
+        <input type="checkbox" id="sausage" name="toppings" value="Sausage">
+        <label for="sausage">Sausage</label><br>
+        <input type="checkbox" id="Green Peppers" name="toppings" value="Green">
+        <label for="sausage">Green peppers</label><br>
+
+        <input type="checkbox" id="Bell Peppers" name="toppings" value="Green">
+        <label for="sausage">Bell Peppers</label><br>
+        <input type="checkbox" id="Red Onions" name="toppings" value="Green">
+        <label for="sausage">Red Onions</label><br>
+        <input type="checkbox" id="Pineapples" name="toppings" value="Green">
+        <label for="sausage">Pineapples</label><br>
+        <input type="checkbox" id="Chilli flakes on Base" name="toppings" value="Green">
+        <label for="sausage">Chilli flakes on Base</label><br>
+        <input type="checkbox" id="Random toppings from house" name="toppings" value="Green">
+        <label for="sausage">Random toppings from house</label><br>
+
+
+
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" name="quantity" min="1" value="1"><br>
+
+        <button type="submit">Order</button>
+    </form>
+
+    <p id="studentInfo">
+        
+    </p>
+
+    <script src="js/script.js" defer></script>
+</body>
+</html>
